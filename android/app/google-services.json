@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738872354028",
+    "project_id": "flutter-tokiomarine",
+    "storage_bucket": "flutter-tokiomarine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738872354028:android:326f4bc5bebbaa4056f1c9",
+        "android_client_info": {
+          "package_name": "com.example.tokio_marine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738872354028-5ot476p6efqv8b4h7jg2p955mu2rtb42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv3elGQQzv2O6E7Xf8SY2J4maB8J33QCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738872354028-5ot476p6efqv8b4h7jg2p955mu2rtb42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
