@@ -29,15 +29,6 @@ class _CustomCardState extends State<CustomCard> {
         onTap: () {
           Navigator.of(context)
               .push(MaterialPageRoute(builder: (_) => WebviewWidget()));
-          // setState(() {
-          //   if (isWebviewOpen) {
-          //     entry.remove();
-          //     isWebviewOpen = false;
-          //   } else {
-          //     Overlay.of(context)?.insert(entry);
-          //     isWebviewOpen = true;
-          //   }
-          // });
         },
         child: CustomContainer(
             child: Column(
@@ -47,14 +38,14 @@ class _CustomCardState extends State<CustomCard> {
             GradientIcon(
                 widget.icon,
                 50,
-                LinearGradient(
+                const LinearGradient(
                   colors: <Color>[
                     ColorsModel.primaryColor,
                     ColorsModel.secundaryColor,
                     ColorsModel.secundaryColor,
                   ],
                 )),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Flexible(

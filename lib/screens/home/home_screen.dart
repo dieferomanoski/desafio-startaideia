@@ -48,10 +48,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-
-// Container(
-//   decoration: BoxDecoration(
-//       borderRadius: BorderRadius.circular(30),
-//       color: Colors.green),
-//   height: MediaQuery.of(context).size.height,
-// ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tokio_marine/screens/login/login_screen.dart';
 import 'package:tokio_marine/shared/utils/colors/colors.dart';
 import 'package:tokio_marine/shared/utils/textstyles.model.dart';
 
@@ -13,9 +14,22 @@ class CustomDrawer extends StatelessWidget {
       child: ListView(
         children: [
           DrawerHeader(
-            child: Text(
-              "Olá, $userName",
-              style: TextStylesModel.title,
+            decoration: const BoxDecoration(
+                gradient: LinearGradient(colors: [
+              ColorsModel.primaryColor,
+              // ColorsModel.primaryColor,
+              ColorsModel.secundaryColor,
+            ])),
+            child: Column(
+              children: [
+                const CircleAvatar(
+                  child: FlutterLogo(),
+                ),
+                Text(
+                  "Olá, $userName",
+                  style: TextStylesModel.title,
+                ),
+              ],
             ),
           ),
           ListTile(
@@ -55,6 +69,17 @@ class CustomDrawer extends StatelessWidget {
               color: ColorsModel.primaryColor,
             ),
             title: Text("Meus Bens", style: TextStylesModel.subtitle),
+          ),
+          ListTile(
+            onTap: () {
+              Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (_) => LoginScreen()));
+            },
+            leading: Icon(
+              Icons.logout,
+              color: ColorsModel.primaryColor,
+            ),
+            title: Text("Fazer Logout", style: TextStylesModel.subtitle),
           ),
         ],
       ),

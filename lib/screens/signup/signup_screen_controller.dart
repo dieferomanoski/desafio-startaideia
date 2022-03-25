@@ -1,22 +1,21 @@
 import 'dart:developer';
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:tokio_marine/screens/home/home_screen.dart';
 
-class LoginScreenController {
+class SignUpScreenController {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
-  Future<User?> loginWithEmailAndPassword({
-    required BuildContext context,
-  }) async {
+  Future<User?> createUserWithEmailAndPassword(
+      {required BuildContext context}) async {
     FirebaseAuth auth = FirebaseAuth.instance;
     User? user;
     try {
-      UserCredential userCredential = await auth.signInWithEmailAndPassword(
+      UserCredential userCredential = await auth.createUserWithEmailAndPassword(
           email: emailController.text, password: passwordController.text);
+
       user = userCredential.user;
       print(user.toString());
 
