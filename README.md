@@ -1,16 +1,23 @@
-# tokio_marine
+# Desafio
 
-A new Flutter project.
+Pré-requisitos
+ - Para rodar este projeto, você deve ter instalado o Flutter.
 
-## Getting Started
+ ## Para testar este projeto
+ ### Clone este repositório
+ $ git clone https://github.com/dieferomanoski/desafio-startaideia.git
 
-This project is a starting point for a Flutter application.
+ ### Vá para a pasta snake-and-ladders
+ $ cd .\tokio_marine
 
-A few resources to get you started if this is your first Flutter project:
+ ### Execute o comando pub get
+ $ flutter pub get
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+ ### PARA RODAR A APLICAÇÃO EM MODO DEBUG
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ $ flutter run
+
+ Escolha seu emulador de preferência
+
+## Caso deseja somente instalar a versão release do APK, aqui está o link
+https://drive.google.com/file/d/1CMg2HAo3fS5Or4l5Xo-WvKR0KLfuYNtu
