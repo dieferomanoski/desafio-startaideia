@@ -4,8 +4,8 @@ Pré-requisitos
  - Para rodar este projeto, você deve ter instalado o Flutter.
 
 # LOGIN DE TESTE
-#Email: admin@tokiomarine.com
-#Password: admin123
+# Email: admin@tokiomarine.com
+# Password: admin123
 
  ## Para testar este projeto
  ### Clone este repositório
