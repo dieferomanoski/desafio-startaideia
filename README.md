@@ -7,7 +7,7 @@ Pré-requisitos
  ### Clone este repositório
  $ git clone https://github.com/dieferomanoski/desafio-startaideia.git
 
- ### Vá para a pasta snake-and-ladders
+ ### Vá para a pasta tokio_marine
  $ cd .\tokio_marine
 
  ### Execute o comando pub get
